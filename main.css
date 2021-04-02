@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.square__holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border-radius: 10%;
+}
+
+.square--grey {
+    background-color: rgb(110, 110, 110);
+    margin-left: 20px;
+}
+
+.button__holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.button {
+    color: #fff;
+    text-decoration: none;
+    background: #ff7f7f;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.square--red {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(235, 15, 15);
+    border-radius: 10%;
+}
